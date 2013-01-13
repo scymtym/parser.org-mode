@@ -1,0 +1,13 @@
+#+TITLE:       parser.org-mode README
+#+AUTHOR:      Jan Moringen
+#+EMAIL:       jmoringe@techfak.uni-bielefeld.de
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE: en
+
+* Introduction
+* Tutorial
+#+BEGIN_SRC: lisp
+(parser.org-mode:parse #P"~/my-file.org" 'list)
+#+END_SRC
+* Reference
